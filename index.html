@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Interactiva DOM</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Interacción con el DOM</h1>
+  </header>
+
+  <main>
+    <!-- Caja para eventos de mouse -->
+    <section class="card">
+      <h2>Caja con eventos de mouse</h2>
+      <div id="caja" class="caja">Pasa el ratón por aquí</div>
+    </section>
+
+    <!-- Inputs con focus y blur -->
+    <section class="card">
+      <h2>Formulario de contacto</h2>
+      <form id="formulario">
+        <input type="text" name="name" placeholder="Nombre" />
+        <input type="text" name="email" placeholder="Email" />
+        <input type="password" name="password" placeholder="Contraseña" />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Zona de cambio y escritura -->
+    <section class="card">
+      <h2>Zona de entrada</h2>
+      <input type="text" name="liveInput" placeholder="Escribe algo aquí" />
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Interacción DOM</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
